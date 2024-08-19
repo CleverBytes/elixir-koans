@@ -53,3 +53,4 @@ defmodule Blanks do
     end
   end
 end
+{args, replacements} = Macro.prewalk(args, replacements,//
